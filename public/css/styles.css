@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: darkviolet;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+}
+
+.card {
+    max-width: 40rem;
+    margin: 2rem auto;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 2rem 1rem;
+}
+
+.form-control {
+    width: 100%;
+    outline: none;
+    border: 1px solid darkviolet;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+}
+.form-control:focus {
+    box-shadow: 1px 1px 6px 4px rgba(148, 0, 211, 0.4);
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+fieldset {
+    padding: 2rem;
+}
+
+legend {
+    padding: 0 0.5rem;
+}
+
+button {
+    border: 1px solid darkviolet;
+    padding: 0.5rem 1rem;
+    background-color: darkviolet;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: darkviolet;
+}
+
+.wrapper {
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    border: 1px solid gray;
+    padding: 0.25rem 1rem;
+    margin: 1rem 0;
+}
+
+#message {
+    margin: 0;
+    color: darkred;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: darkviolet;
+}
